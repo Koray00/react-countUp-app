@@ -1,0 +1,44 @@
+body{
+    background-color: darkgray;
+}
+
+.boxes {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    width:100%;
+
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    color:white;
+    font-size: 50px;
+    line-height: 300px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.box1 {
+    background-color:darkorchid;
+}
+.box2 {
+    background-color: orange;
+}
+.box3 {
+    background-color: crimson;
+}
+
+.buttons{
+   text-decoration: none;
+   text-align:center;
+
+
+}
+.btn {
+    margin-left: 5px;
+    margin-top: -20%;
+}
